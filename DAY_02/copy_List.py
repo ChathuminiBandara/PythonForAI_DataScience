@@ -1,4 +1,5 @@
 my_list_1 = [1, 2, 3, ["a", "b"]]
+# copying the lists by the copy() method
 my_list_2 = my_list_1.copy()
 
 print(my_list_2)
