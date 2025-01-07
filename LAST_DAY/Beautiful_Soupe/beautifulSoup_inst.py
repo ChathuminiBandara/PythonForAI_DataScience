@@ -16,4 +16,10 @@ soup = BeautifulSoup(html_doc,'html.parser')
 
 print(soup.title)
 
+print(soup.p)
+print(soup.a)
+p_tag = soup.find('p')
+print(p_tag)
 
+p_tags = soup.find_all('p')
+print(p_tags)
